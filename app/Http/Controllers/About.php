@@ -11,7 +11,7 @@ class About extends Controller
     {
 
         $abouts = \App\Models\About::all();
-        return view('home.about', compact('abouts'));
+        return view('home1.about', compact('abouts'));
     }
 
 
